@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.31.255.10:5000/jstrachan/nodey27
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: nodey27
